@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Demo Lazyload</title>
+        <style>
+            .img,img{width:500px; height: 300px; display: block} 
+        </style>
+    </head>
+    <body>
+        
+        Dengan div / background :
+        <div class='img lazy' data-original='images/1.jpg' style='background: #ccc url(images/blank.jpg); background-size:cover; background-position:center;'></div>
+        <div class='img lazy' data-original='images/2.jpg' style='background: #ccc url(images/blank.jpg); background-size:cover; background-position:center;'></div>
+        <div class='img lazy' data-original='images/3.jpg' style='background: #ccc url(images/blank.jpg); background-size:cover; background-position:center;'></div>
+        <div class='img lazy' data-original='images/4.jpg' style='background: #ccc url(images/blank.jpg); background-size:cover; background-position:center;'></div>
+        <div class='img lazy' data-original='images/5.jpg' style='background: #ccc url(images/blank.jpg); background-size:cover; background-position:center;'></div>
+        <div class='img lazy' data-original='images/6.jpg' style='background: #ccc url(images/blank.jpg); background-size:cover; background-position:center;'></div>
+        Dengan img src :
+        <img src="images/blank.jpg" data-original="images/7.jpg" class="lazy">
+        <img src="images/blank.jpg" data-original="images/8.jpg" class="lazy">
+        
+        <script src="jquery.min.js" type="text/javascript"></script>
+        <script src="jquery.lazyload.min.js" type="text/javascript"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(function() {
+                $("img.lazy").lazyload({effect : "fadeIn"});// untuk dipasang di <img src='xxxx'>
+                $("div.lazy").lazyload({effect : "fadeIn"});// untuk dipasang sebagai background / div
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+30-03-2021 20:42:47 - id_user : 2 - user : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 - file :  - url : http://localhost/eretail/Login - ket : Login - __ci : 1617111604
+30-03-2021 20:48:54 - id_user : 2 - user : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 - file :  - url : http://localhost/eretail/User_admin - ket : Logout - __ci : 1617111936

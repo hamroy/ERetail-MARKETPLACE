@@ -1,0 +1,1 @@
+05-12-2021 22:51:12 - id_user : 2 - user : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 - file :  - url : http://localhost/eretail/login - ket : Login - __ci : 1638719321
